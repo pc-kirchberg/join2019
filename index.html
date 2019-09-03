@@ -1,10 +1,15 @@
 ---
 layout: base
+templateEngineOverride: njk
 ---
-<h1>Join the Pupils' Committee</h1>
+<main>
+    <h1>Join the Pupils' Committee</h1>
 
-{%- for page in collections.pages -%}
+    {% for page in collections.pages | sort(false, false, "order") %}
 
-    <a href="{{ page.url }}" class="big-button">{{ page.data.title }}</a>
+        {% if page.data.frontpage %}
+            <a href="{{ page.url }}" {{ "disabled" if page.data.disabled else "" }} class="big-button">{{ page.data.title }}</a>
+        {% endif %}
 
-{%- endfor -%}
+    {% endfor %}
+</main>

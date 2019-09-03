@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "eleventy --serve"
+    "dev": "gulp dev",
+    "build": "gulp"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0"
+    "@11ty/eleventy": "^0.9.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
   }
 }

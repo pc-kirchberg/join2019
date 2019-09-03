@@ -1,9 +1,9 @@
 ---
 title: The Application Process
-path: /process
+frontpage: true
+navbar: true
+order: 1
 ---
-
-# The Application Process
 
 Application Process
 ===================
@@ -32,7 +32,7 @@ All the class reps will vote on whether they want to see you in the Pupils’ Co
 
 If you are applying for both Leisure Committee, a Junior position, and/or a different position, the class reps can vote for each position separately - they will have two rows for you on their ballot papers.
 
-After the election, we will count all the votes and send you an email (or SMS if you entered your phone number) letting you know whether or not you were elected.
+After the election, we will count all the votes and send you an email letting you know whether or not you were elected.
 
 At the internal election, we will go through each position one at a time. The candidates for that position will be asked to give a speech explaining why they’d be good for it. There is no time limit on these speeches. Then, all the candidates will be asked to leave the room and the rest of the Committee will vote on the position.
 

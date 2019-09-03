@@ -1,6 +1,8 @@
 ---
 title: Positions in the PC
-path: /positions
+frontpage: true
+navbar: true
+order: 1
 ---
 Positions in the Pupils' Committee
 ==================================

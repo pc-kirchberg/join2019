@@ -17,4 +17,8 @@ collections:
     preview_path: "pages/{{slug}}.md"
     fields:
       - {label: Title, name: title, widget: string}
+      - {label: "Sort Order", name: order, widget: number, valueType: int, default: 0, hint: "The order this page should show up in the navigation."}
+      - {label: "Show on front page?", name: frontpage, widget: boolean, default: true}
+      - {label: "Show in navigation bar?", name: navbar, widget: boolean, default: true}
+      - {label: "Disabled", name: disabled, widget: boolean, default: false, hint: "Can people click on links to this page or not?"}
       - {label: body, name: body, widget: markdown}

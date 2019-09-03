@@ -2,8 +2,15 @@
 layout: base
 ---
 
-<nav>
-    navbar goes here
+<nav class="navbar">
+    <a class="navlink" href="/">Home</a>
+    {%- for page in collections.pages | sort(false, false, "order") -%}
+
+        {% if page.data.navbar %}
+            <a href="{{ page.url }}" {{ "disabled" if page.data.disabled else "" }}  class="navlink">{{ page.data.title }}</a>
+        {% endif %}
+
+    {%- endfor -%}
 </nav>
 
 <main>
