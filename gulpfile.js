@@ -5,7 +5,7 @@ const child_process = require("child_process");
 function sass(cb) {
     return src("assets/styles/site.scss")
         .pipe(gulpSass().on("error", gulpSass.logError))
-        .pipe(dest("assets/styles/"));
+        .pipe(dest("assets/styles/generated"));
 }
 
 function watchSass() {
