@@ -5,7 +5,7 @@ templateEngineOverride: njk
 <main>
     <h1>Join the Pupils' Committee</h1>
 
-    {% for page in collections.pages | sort(false, false, "order") %}
+    {% for page in collections.pages | sort(true, false, "order") %}
 
         {% if page.data.frontpage %}
             <a href="{{ page.url }}" {{ "disabled" if page.data.disabled else "" }} class="big-button">{{ page.data.title }}</a>
