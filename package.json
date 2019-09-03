@@ -1,0 +1,12 @@
+{
+  "name": "join2019",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}

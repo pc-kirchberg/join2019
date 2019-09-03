@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: pc-kirchberg/join2019
+
+collections:
+  - name: pages
+    label: Pages
+    folder: pages/
+    extension: .md
+    create: true
+    format: frontmatter
+    slug: "{{slug}}"
+    preview_path: "pages/{{slug}}.md"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: body, name: body, widget: markdown}
