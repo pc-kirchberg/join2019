@@ -2,6 +2,9 @@ backend:
   name: github
   repo: pc-kirchberg/join2019
 
+
+media_folder: 'images/'
+
 collections:
   - name: pages
     label: Pages
