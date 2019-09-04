@@ -10,7 +10,9 @@ Positions in the Pupils' Committee
 Changes Since Last Year
 -----------------------
 
-William, can you please edit this, I really can't be bothered
+-Head of Internal is replaced by a second secretary
+-One leisure member becomes Head of Leisure
+-Removal of 'Junior' titles
 
 President
 ---------
