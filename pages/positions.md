@@ -59,6 +59,6 @@ The PR member's job is to manage communications with the students and the outsid
 
 The IT member manages the PC's website, servers, and anything that needs to be done online.
 
-## Leisure Committee (5 people)
+## Leisure Committee (5 people, including Head of Leisure)
 
 The Leisure Committee organises all the parties and other social events for the students.
