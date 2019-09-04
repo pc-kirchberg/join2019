@@ -3,7 +3,7 @@ title: The Application Process
 order: 1
 frontpage: true
 navbar: true
-disabled: true
+disabled: false
 ---
 # Application Process
 
