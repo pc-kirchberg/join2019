@@ -3,7 +3,7 @@ title: Positions in the PC
 order: 1
 frontpage: true
 navbar: true
-disabled: true
+disabled: false
 ---
 # Positions in the Pupils' Committee
 
