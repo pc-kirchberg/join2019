@@ -74,6 +74,10 @@ a {
         &[disabled] {
             color: #727272;
         }
+        @include mobile {
+            margin: 0.6em 1em;
+            padding: 0.2em;
+        }
     }
 }
 
