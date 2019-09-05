@@ -4,10 +4,12 @@ layout: base
 
 <nav class="navbar">
     <a class="navlink" href="/">Home</a>
-    {%- for page in collections.pages | sort(true, false, "order") -%}
+    {%- for navpage in collections.pages | sort(true, false, "order") -%}
 
-        {% if page.data.navbar %}
-            <a href="{{ page.url }}" {{ "disabled" if page.data.disabled else "" }}  class="navlink">{{ page.data.title }}</a>
+        {% if navpage.data.navbar %}
+            {% if page.url != navpage.url %}
+                <a href="{{ navpage.url }}" {{ "disabled" if navpage.data.disabled else "" }}  class="navlink">{{ navpage.data.title }}</a>
+            {% endif %}
         {% endif %}
 
     {%- endfor -%}

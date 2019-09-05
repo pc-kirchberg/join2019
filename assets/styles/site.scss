@@ -1,5 +1,11 @@
 @import "variables";
 
+@mixin mobile {
+    @media screen and (max-width: 640px) {
+        @content;
+    }
+}
+
 body {
     background-color: #212121;
     color: #ddd;
@@ -37,6 +43,9 @@ a {
     &[disabled] {
         background-color: #727272;
     }
+    @include mobile {
+        display: block;
+    }
 }
 
 .navbar {
@@ -51,6 +60,12 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+
+    @include mobile {
+        flex-direction: column;
+        height: auto;
+        position: relative;
+    }
 
     .navlink {
         text-decoration: none;
