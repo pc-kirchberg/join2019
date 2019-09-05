@@ -76,3 +76,11 @@ a {
         }
     }
 }
+
+.google-form {
+    max-width: 600px;
+    @include mobile {
+        max-width: 100%;
+        width: 100%;
+    }
+}

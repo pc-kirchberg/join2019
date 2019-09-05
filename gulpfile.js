@@ -9,7 +9,7 @@ function sass(cb) {
 }
 
 function watchSass() {
-    return watch("assets/styles/site.scss", sass);
+    return watch("assets/styles/**/*.scss", sass);
 }
 
 function eleventy() {
