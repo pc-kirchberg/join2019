@@ -1,6 +1,7 @@
 const { series, parallel, src, dest, watch } = require('gulp');
 const gulpSass = require("gulp-sass");
 const child_process = require("child_process");
+const path = require("path");
 
 function sass(cb) {
     return src("assets/styles/site.scss")
@@ -13,11 +14,11 @@ function watchSass() {
 }
 
 function eleventy() {
-    return child_process.spawn("node_modules/.bin/eleventy", { stdio: "inherit" });
+    return child_process.spawn(path.join(__dirname, "node_modules", ".bin", "eleventy"), { stdio: "inherit" });
 }
 
 function watchEleventy() {
-    return child_process.spawn("node_modules/.bin/eleventy", ["--serve"], { stdio: "inherit" });
+    return child_process.spawn(path.join(__dirname, "node_modules", ".bin", "eleventy"), ["--serve"], { stdio: "inherit" });
 }
 
 
