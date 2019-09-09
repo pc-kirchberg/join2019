@@ -1378,6 +1378,11 @@ ejs@^2.6.2:
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.1.tgz#5b5ab57f718b79d4aca9254457afecd36fa80228"
   integrity sha512-kS/gEPzZs3Y1rRsbGX4UOSjtP/CeJP0CxSNZHYxGfVM/VgLcv0ZqM7C45YyTj2DI2g7+P9Dd24C+IMIg6D0nYQ==
 
+eleventy@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/eleventy/-/eleventy-0.2.0.tgz#9187fb91dc7bd0497b48ade0eb5a0190cae97c37"
+  integrity sha1-kYf7kdx70El7SK3g61oBkMrpfDc=
+
 emitter-mixin@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/emitter-mixin/-/emitter-mixin-0.0.3.tgz#5948cb286f2e48edc3b251a7cfc1f7883396d65c"
