@@ -11,7 +11,7 @@ disabled: false
 | -------------------------- | --------------------------------------------------- |
 | School starts              | Tuesday 3rd September 2019                          |
 | Applications open          | Thursday 5th September 2019                         |
-| Public information meeting | TBC                                                 |
+| Public information meeting | Tuesday 17th September 2019                         |
 | Applications close         | Sunday 22nd of September 2019, 23:59                |
 | General election           | Tuesday 24th September 2019, 11:10, Salle des Fêtes |
 | Internal elections         | TBC                                                 |
